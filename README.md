@@ -1,4 +1,3 @@
-# OrdinalEntropy
 The official code of "Deep Regression Representation Learning with Topology" in ICML 2024. [[PDF]](https://arxiv.org/pdf/2404.13904.pdf).
 
 ## Experiments on the synthetic dataset
