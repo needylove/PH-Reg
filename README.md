@@ -1,6 +1,6 @@
 The official code of "Deep Regression Representation Learning with Topology" in ICML 2024. [[PDF]](https://arxiv.org/pdf/2404.13904.pdf).
 
-## Experiments on the synthetic dataset
+### Experiments on the synthetic dataset
 
 - main.py :  Obtain experimental results on the synthetic dataset
 - visualization.py: Visualizing the feature space, the input space and the target space.
@@ -12,9 +12,9 @@ You can generate your own synthetic dataset by:
 - run data/synthetze_datasets.py
 
 
-## Experiments on Real-world Datasets
+### Experiments on Real-world Datasets
 
-We currently provide the detailed code for age estiamtion. PH-reg can be added in a similar way for other tasks.
+We currently provide a detailed code for age estimation. PH-reg can be added in a similar way for other tasks.
 
 For age estimation, we follow the [Imbalanced Regression](https://github.com/YyzHarry/imbalanced-regression/tree/main/agedb-dir), please download Age-DB dataset following their instructions. 
 
