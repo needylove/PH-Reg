@@ -1,3 +1,5 @@
+<img src="img/target_space.gif" width="300"> <img src="img/baseline.gif" width="300"><img src="img/ph-reg.gif" width="300">
+
 The official code of "Deep Regression Representation Learning with Topology" in ICML 2024. [[PDF]](https://arxiv.org/pdf/2404.13904.pdf).
 
 ### Experiments on the synthetic dataset
@@ -18,7 +20,7 @@ We currently provide a detailed code for age estimation. PH-reg can be added in 
 
 For age estimation, we follow the [Imbalanced Regression](https://github.com/YyzHarry/imbalanced-regression/tree/main/agedb-dir), please download Age-DB dataset following their instructions. 
 
----
+### Acknowledgement
 
 Ph-Reg is built based on the [topology autoencoder](https://github.com/BorgwardtLab/topological-autoencoders) and [Birdal's regularizer](https://github.com/tolgabirdal/PHDimGeneralization).
 
