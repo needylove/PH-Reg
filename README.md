@@ -21,4 +21,4 @@ For age estimation, we follow [Imbalanced Regression](https://github.com/YyzHarr
 
 ---
 
-Shihao wanted to express his gratitude for the high-quality [comments](https://openreview.net/forum?id=OeNcnlQPRz) made by the ICLR reviewers, which definitely improved the paper. 
+An old version of the paper can be found [here](https://openreview.net/forum?id=OeNcnlQPRz). Shihao wanted to express his gratitude for the high-quality comments made by the reviewers, which definitely improved the paper. 
