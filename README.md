@@ -17,7 +17,7 @@ You can generate your own synthetic dataset by:
 
 We currently provide the detailed code for age estiamtion. PH-reg can be added in a similar way for other tasks.
 
-For age estimation, we follw [Imbalanced Regression](https://github.com/YyzHarry/imbalanced-regression/tree/main/agedb-dir), plased download Age-DB dataset following their instructions. 
+For age estimation, we follow [Imbalanced Regression](https://github.com/YyzHarry/imbalanced-regression/tree/main/agedb-dir), plased download Age-DB dataset following their instructions. 
 
 ---
 
