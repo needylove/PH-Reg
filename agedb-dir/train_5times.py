@@ -389,7 +389,7 @@ def shot_metrics(preds, labels, train_labels, many_shot_thr=100, low_shot_thr=20
 
 if __name__ == '__main__':
     original_store_name = args.store_name
-    for times in range(35):
+    for times in range(3):
         args.start_epoch, args.best_loss = 0, 1e5
         args.store_name =  original_store_name + str(times)
         args.resume = original_store_name + str(times)
