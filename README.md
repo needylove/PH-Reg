@@ -1,6 +1,6 @@
 <img src="img/target_space.gif" width="266"> <img src="img/baseline.gif" width="266"><img src="img/ph-reg.gif" width="266">
 
-The official code of "Deep Regression Representation Learning with Topology" in ICML 2024. [[PDF]](https://arxiv.org/pdf/2404.13904.pdf).
+The official code of "Deep Regression Representation Learning with Topology" in ICML 2024. [[PDF]](https://arxiv.org/pdf/2404.13904.pdf). [[Project Page]](https://needylove.github.io/PH-Reg/).
 
 ### Experiments on the synthetic dataset
 
