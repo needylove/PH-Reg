@@ -149,7 +149,7 @@
 					</td>
 					<td align=center width=150px>
 						<center>
-							<span style="font-size:24px"><a href="https://www.mu4yang.com/">Kenji Kawaguchi</a></span>
+							<span style="font-size:24px"><a href="https://ml.comp.nus.edu.sg//">Kenji Kawaguchi</a></span>
 						</center>
 					</td>
 					<td align=center width=150px>
@@ -163,17 +163,22 @@
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://arxiv.org/pdf/2404.13904.pdf'>[Paper]</a></span>
+							<span style="font-size:24px"><a href='https://arxiv.org/pdf/2404.13904'>[Paper]</a></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://iclr.cc/media/PosterPDFs/ICLR%202023/11818.png?t=1681886342.202806'>[Poster]</a></span>
+							<span style="font-size:24px"><a href='./poster.pdf'>[Poster]</a></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://github.com/needylove/OrdinalEntropy'>[GitHub]</a></span><br>
+							<span style="font-size:24px"><a href='./RegTopology_github.pptx'>[Slides]</a></span><br>
+						</center>
+					</td>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href='https://github.com/needylove/PH-Reg'>[GitHub]</a></span><br>
 						</center>
 					</td>
 				</tr>
@@ -193,33 +198,24 @@
 		</table>
 	</center>
 
-	<hr>
+
 
 	<table align=center width=850px>
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				In computer vision, it is often observed that formulating regression problems as a classification task yields better performance. We investigate this curious phenomenon and provide a derivation to show that classification, with the cross-entropy loss, outperforms regression with a mean squared error loss in its ability to learn high-entropy feature representations. Based on the analysis, we propose an ordinal entropy loss to encourage higher-entropy feature spaces while maintaining ordinal relationships to improve the performance of regression tasks. Experiments on synthetic and real-world regression tasks demonstrate the importance and benefits of increasing entropy for regression.
+				Most works studying representation learning focus only on classification and neglect regression. Yet, the learning objectives and, therefore, the representation topologies of the two tasks are fundamentally different: classification targets class separation, leading to disconnected representations, whereas regression requires ordinality with respect to the target, leading to continuous representations. We thus wonder how the effectiveness of a regression representation is influenced by its topology, with evaluation based on the Information Bottleneck (IB) principle. The IB principle is an important framework that provides principles for learning effective representations. We establish two connections between it and the topology of regression representations. The first connection reveals that a lower intrinsic dimension of the feature space implies a reduced complexity of the representation Z. This complexity can be quantified as the conditional entropy of Z on the target Y, and serves as an upper bound on the generalization error. The second connection suggests a feature space that is topologically similar to the target space will better align with the IB principle. Based on these two connections, we introduce PH-Reg, a regularizer specific to regression that matches the intrinsic dimension and topology of the feature space with the target space. Experiments on synthetic and real-world regression tasks demonstrate the benefits of PH-Reg.
 			</td>
 		</tr>
 	</table>
 	<br>
 
-	<hr>
+
 	<center><h1>Talk</h1></center>
 	<p align="center">
-		<iframe width="660" height="395" src="https://recorder-v3.slideslive.com/?share=80722&s=b478107e-d72f-46ec-92f3-66563da1846b" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+		<iframe width="660" height="395" src="https://youtu.be/EhObM1WLSWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
 	</p>
 
-	<table align=center width=800px>
-		<br>
-		<tr>
-			<center>
-				<span style="font-size:28px"><a href="./resources/OrdinalEntropy_slides.pdf">[Slides]</a>
-				</span>
-			</center>
-		</tr>
-	</table>
 	<hr>
 	<table align=center width=900px>
 		<tr>
